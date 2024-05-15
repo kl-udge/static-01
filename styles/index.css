@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+    border-bottom: 1px solid gray;
+}
+
+.header_left h2 {
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.nav a {
+    text-decoration: none;
+}
