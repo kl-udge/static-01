@@ -4,11 +4,26 @@
     box-sizing: border-box;
 }
 
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: red; */
+    background-color: rgb(77, 77, 246);
+    color: #fff;
     border-bottom: 1px solid gray;
 }
 
@@ -24,11 +39,20 @@
 
 .nav {
     padding: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 900;
-    cursor: pointer;
 }
 
 .nav a {
-    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-color: red;
+    height: 90vh;
+}
+
+.hero_content {
+    width: 525px;
+    margin: auto;
 }
